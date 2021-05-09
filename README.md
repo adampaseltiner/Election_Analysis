@@ -37,4 +37,3 @@ The analysis of the election:
 After completing this analysis it is clear that the code we have written can apply to nearly any election that the election commission should need analyzed:
   1. This script can easily be changed to accomodate any election type (e.g. mayor, governor, senate, presidential) simply by updating the variables that are being analyzed. The code structure of any election analysis will likely very closely mirror the analysis we did here and a simple update of the variable sets would accurately reflect the required inputs/outputs of a different election.
   2. Even if the quantity of data increases, this script can be easily scaled to analyze an infinitely large number of fields. Expanding from candidate analysis to county analysis utilized almost the exact same code and thus we could apply that code to look at further areas of interest (e.g. age, gender, race, income, etc.).
-  3. 
