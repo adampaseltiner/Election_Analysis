@@ -34,6 +34,6 @@ The analysis of the election:
 
 
 ## Election-Audit Summary
-After completing this analysis it is clear that the code we have written can apply to nearly any election that the election commission should need analyzed:
+After completing this analysis it is clear that the code we have written can apply to nearly any election that an election commission should need analyzed:
   1. This script can readily be changed to accomodate any election (e.g. city, district, county, state, national) simply by updating the variables that are being analyzed. The code structure of any election analysis will very closely mirror the analysis we did here and a simple update of the variable sets would accurately reflect the required inputs/outputs of a different election.
-  2. Even if the quantity of data increases, this script can be easily scaled to analyze an infinitely large number of fields. Expanding from candidate analysis to county analysis utilized almost the exact same code and thus we could apply that code to look at further areas of interest (e.g. age, gender, race, income, etc.).
+  2. Even if the quantity of data increases, this script can be quickly scaled to analyze an infinitely large number of fields. Expanding from candidate analysis to county analysis utilized almost the exact same type of code we had already written and thus we could apply that same code to look at further areas of interest (e.g. age, gender, race, income, etc.).
