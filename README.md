@@ -5,34 +5,32 @@ A Colorado Board of Elections employee has given me the following tasks to compl
 
 1. Calculate the total number of votes cast.
 2. Get a complete list of counties where people voted.
-3. Calculate the total number of votes in each county.
-4. Calculate the percentage of votes in each county.
-5. Determine the county with the largest voter turnout.
-6. Get a complete list of candidates who received votes.
-7. Calculate the total number of votes each candidate received.
-8. Calculate the percentage of votes each candidate won.
-9. Determine the winner of the election based on popular vote.
+3. Calculate the total number and percentage of votes in each county.
+4. Determine the county with the largest voter turnout.
+5. Get a complete list of candidates who received votes.
+6. Calculate the total number and percentage of votes each candidate received.
+7. Determine the winner of the election based on popular vote.
 
 ## Resources
 - Data Source: election_results.csv
 - Software: Python 3.6.7, Visual Studio Code, 1.56.0
 
 ## Summary
-The analysis of the election shows that:
-- There were 369,711 voes cast in the election.
+The analysis of the election:
+- There were 369,711 votes cast in the election.
 - Votes were placed in three counties:
   - Jefferson: 38,855 votes, 10.5% of the total vote
   - Denver: 306,055 votes, 82.8% of the total vote
   - Arapahoe: 24,801 votes, 6.7% of the total vote
-- The candidates were:
-  - Charles Casper Stockham
-  - Diana DeGette
-  - Raymon Anthony Doane
-- The candidate results were:
+- The county with the largest voter turnout was Denver county.
+- The candidates and their voting results:
   - Charles Casper Stockham: 85,213 votes, 23.0% of the total vote
   - Diana DeGette: 272,892 votes, 73.8% of the total vote 
   - Raymon Anthony Doane: 11,606 votes, 3.1% of the total vote
-- The winner of the election was:
+- The winner of the election:
   - Diana DeGette
+
+![Election Results](https://user-images.githubusercontent.com/82347825/117558731-be809400-b04d-11eb-8e58-ddc1784f5eba.png)
+
 
 ## Challenge Overview
