@@ -15,7 +15,7 @@ A Colorado Board of Elections employee has given me the following tasks to compl
 - Data Source: election_results.csv
 - Software: Python 3.6.7, Visual Studio Code, 1.56.0
 
-## Summary
+## Election-Audit Results
 The analysis of the election:
 - There were 369,711 votes cast in the election.
 - Votes were placed in three counties:
@@ -33,4 +33,8 @@ The analysis of the election:
 ![Election Results](https://user-images.githubusercontent.com/82347825/117558731-be809400-b04d-11eb-8e58-ddc1784f5eba.png)
 
 
-## Challenge Overview
+## Election-Audit Summary
+After completing this analysis it is clear that the code we have written can apply to nearly any election that the election commission should need analyzed:
+  1. This script can easily be changed to accomodate any election type (e.g. mayor, governor, senate, presidential) simply by updating the variables that are being analyzed. The code structure of any election analysis will likely very closely mirror the analysis we did here and a simple update of the variable sets would accurately reflect the required inputs/outputs of a different election.
+  2. Even if the quantity of data increases, this script can be easily scaled to analyze an infinitely large number of fields. Expanding from candidate analysis to county analysis utilized almost the exact same code and thus we could apply that code to look at further areas of interest (e.g. age, gender, race, income, etc.).
+  3. 
